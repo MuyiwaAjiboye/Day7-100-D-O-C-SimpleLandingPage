@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(128, 213, 84);
+}
+
+.faceimg{
+    height: 2%;
+    width: 2%;
+    border: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+
+}
+
+.links{
+    list-style: none;
+    border: 0;
+}
+.navlink{
+    display: inline-block;
+    padding-right: 3vw;
+}
+.navlink:hover{
+    color: white;
+    border: 2px solid black ;
+    padding-left: 30px;
+    background-color: black;
+    border-radius: 10px ;
+    transition: 0.5s ease-in;
+}
+
+.navbut{
+    padding-right: 5vw;
+}
+.navbutton{
+    padding: 5px 25px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.vanimg{
+    width: 100%;
+    height: 500px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    padding: 0 10px;
+}
+.biggy{
+    font-weight: 900;
+    font-size: 500%;
+    
+}
+.bigt{
+    color: rgb(110, 28, 110);
+}
+.sharpview{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+footer{
+    display: grid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    place-items: center;
+    backdrop-filter: blur(10px); 
+     
+    margin-left: 20px;
+}
+.trackbox{
+    position: relative;
+    width: 80vw;
+    height: 13vh;
+    padding-left: 5%;
+    padding-top: 1%;
+    font-size: larger;
+    border-radius: 7px;
+    opacity: 1;
+    border: none;
+    outline: none;
+    /* background: transparent; */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(4, 107, 4, 0.1);
+    backdrop-filter: blur(10px); 
+    
+    
+}
+.searchicon{
+    position: absolute;
+    padding-left: 2.5%;
+    padding-top: 3.5%;
+    z-index: 3;
+}
+.trackbutton{
+    position: absolute;
+    z-index: 2;
+    padding: 18px 4.2%;
+    margin-top: 2.7vh;
+    margin-left: 60vw;
+    border-radius: 10px;
+    box-shadow: 20px;
+    background: rgb(245, 238, 238);
+    border: none;
+  outline: none;
+  box-shadow: 0 0 20px 0 rgb(70, 67, 67) ;
+}
